@@ -1,0 +1,9 @@
+fastapi[all] # Es
+psycopg2-binary # Cliente de PostgreSQL permite conectar a la base de datos
+sqlalchemy # ORM para interactuar con la base de datos
+alembic # Manejo de migraciones de la base de datos
+pydantic # Validación de datos
+pytest # Framework de pruebas
+httpx # Cliente HTTP para realizar pruebas
+python-dotenv # Carga de variables de entorno desde el archivo .env
+
