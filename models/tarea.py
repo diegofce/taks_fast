@@ -7,4 +7,4 @@ class Tarea(Base):
     id = Column(Integer, primary_key=True, index=True)
     titulo = Column(String, nullable=False)
     descripcion = Column(String)
-    completado = Column(Boolean, default=False)
+    completada = Column(Boolean, default=False)

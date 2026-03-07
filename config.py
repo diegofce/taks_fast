@@ -1,9 +1,8 @@
 import os
-from database.base import Base
-from database.session import get_db
+
 
 DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "123456789")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "admin")
 DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_PORT = os.getenv("DB_PORT", "5433")
 DB_NAME = os.getenv("DB_NAME", "tareas_db")
